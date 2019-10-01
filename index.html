@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+     <meata charset=”utf-8″>
+     <meta name=”viewport” content=”width=device-width, user-scalable=no”>
+     <title>meme</title>
+     <link rel=”stylesheet” type=”text/css” href=”nothing.css”>
+     <script type="text/javascript" src="nothing.js"></script>
+
+</head>
+
+<body>
+     <!– 제목 –>
+
+
+홈페이지에 웹캠 구현하기
+
+
+     <dir class=”top-container”>
+         <video id=”video”>Stream not available…</video>
+         <!– select filter / CSS filters–>
+         <form>
+             <fieldset id=”photo-filter”>
+                 <legend>필터 선택</legend>
+
+                 <input type=”radio” name=”filter” id=”normal” value=”none” checked=”checked”>
+                 <label for=”normal”></label>
+                    <input type=”radio” name=”filter” id=”grayscale” value=”grayscale(100%)”>
+                    <label for=”grayscale”>Grayscale</label>
+                 <input type=”radio” name=”filter” id=”sepia” value=”sepia(100%)”>
+                 <label for=”sepia”>Sepia</label>
+                 <input type=”radio” name=”filter” id=”invert” value=”invert(100%)”>
+                 <label for=”invert”>Invert</label>
+                 <input type=”radio” name=”filter” id=”hue” value=”hue-rotate(90deg)”>
+                 <label for=”hue”>Hue</lable>
+                 <input type=”radio” name=”filter” id=”blur” value=”blur(10px)”>
+                 <label for=”blur”>blur</label>
+                 <input type=”radio” name=”filter” id=”contrast” value=”contrast(200%)”>
+                 <label for=”contrast”>Contrast</lable>
+
+            </fieldset>
+         </form>
+
+         <button id=”photo-button” class=”btn btn-dark”>
+             사진 찍기
+         </button>
+         <button id=”clear-button” class=”btn btn-dark”>
+             다시 하기
+         </button>
+         <canvas id=”canvas”></canvas>
+     </dir>
+
+    <!– 캡처한 사진들을 출력  –>
+
+
+     </div>
+
+</body></html>
